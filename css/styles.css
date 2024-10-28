@@ -2,12 +2,51 @@ body {
   font-family: Roboto, sans-serif;
   color: #2e2f42;
   font-weight: "Regular";
-  font-size: 16px;
-  letter-spacing: 2%;
-  line-height: 24px;
 }
 
-h1 {
+.link-logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.link-nav {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2e2f42;
+}
+
+.link-nav:hover {
+  color: #404bbf;
+}
+
+.link-nav:active {
+}
+
+.link-address {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2e2f42;
+}
+
+.link-address:hover {
+  color: #404bbf;
+}
+
+.section-effective {
+  background-color: #2e2f42;
+}
+
+.title-effective {
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
@@ -16,13 +55,22 @@ h1 {
   color: #ffffff;
 }
 
-h2 {
-  font-size: 36px;
-  letter-spacing: 2%;
-  text-align: center;
+.button-order {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
 }
 
-h3 {
+.button-order:hover {
+  background-color: #404bbf;
+}
+
+.subtitle-advantages {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -30,7 +78,7 @@ h3 {
   text-align: left;
 }
 
-p {
+.text-advantages {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -38,23 +86,59 @@ p {
   text-align: left;
 }
 
-.effective {
-  background-color: #2e2f42;
-}
-
-. .advantages {
-  display: none;
-}
-
-.benefits {
-  text-align: left;
-}
-
-.team {
+.section-team {
   background-color: #f4f4fd;
 }
 
-footer {
+.title-section {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.subtitle-team {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.title-team {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.subtitle-portfolio {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.text-portfolio {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.section-footer {
   background-color: #2e2f42;
-  color: green;
+}
+
+.text-footer {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #f4f4fd;
 }
