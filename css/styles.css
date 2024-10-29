@@ -154,23 +154,28 @@ body {
   color: #2e2f42;
 }
 
+.image-team {
+  background-color: #ffffff;
+}
+
 .subtitle-team {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.11;
+  line-height: 1;
   letter-spacing: 0.02em;
   text-align: center;
   background-color: #ffffff;
+  color: #2e2f42;
 }
 
 .text-team {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.11;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
   background-color: #ffffff;
-  color: #2e2f42;
+  color: #434455;
 }
 
 .subtitle-portfolio {
