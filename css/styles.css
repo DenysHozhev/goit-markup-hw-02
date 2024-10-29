@@ -71,9 +71,6 @@ body {
   color: #404bbf;
 }
 
-.link-nav:active {
-}
-
 .link-address {
   font-size: 16px;
   font-weight: 400;
@@ -153,6 +150,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .subtitle-team {
@@ -171,21 +169,22 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   background-color: #ffffff;
-  color: #434455;
+  color: #2e2f42;
 }
 
 .subtitle-portfolio {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #2e2f42;
 }
 
 .text-portfolio {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.11;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
   color: #434455;
