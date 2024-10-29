@@ -121,7 +121,7 @@ body {
   background-color: #404bbf;
 }
 
-.button-order:active {
+.button-order:focus {
   background-color: #404bbf;
 }
 
