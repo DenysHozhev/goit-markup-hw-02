@@ -141,7 +141,7 @@ body {
 }
 
 .section-team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .title-section {
@@ -152,6 +152,7 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  background-color: #ffffff;
 }
 
 .image-team {
@@ -161,7 +162,7 @@ body {
 .subtitle-team {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   background-color: #ffffff;
