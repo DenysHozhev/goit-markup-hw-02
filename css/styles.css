@@ -3,34 +3,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-}
-
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.raleway-uniquifier {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
+ 
 
 .link-logo {
   font-family: Raleway, sans-serif;
@@ -61,13 +34,17 @@ body {
 .link-nav {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
 }
 
 .link-nav:hover {
+  color: #404bbf;
+}
+
+.link-nav:focus {
   color: #404bbf;
 }
 
@@ -90,7 +67,11 @@ body {
 }
 
 .link-address:focus {
-  background-color: #404bbf;
+  color: #404bbf;
+}
+
+.section-effective {
+  background-color: #2e2f42;
 }
 
 .title-effective {
