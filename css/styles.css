@@ -74,7 +74,7 @@ body {
 .link-address {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
   color: #434455;
@@ -89,8 +89,9 @@ body {
   color: #404bbf;
 }
 
-.section-effective {
-  background-color: #2e2f42;
+.link-address:focus{
+  background-color: #404bbf;
+}
 }
 
 .title-effective {
