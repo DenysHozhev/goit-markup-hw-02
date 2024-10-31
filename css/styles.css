@@ -17,14 +17,7 @@ body {
 }
 
 .logo-studio {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: left;
   color: #2e2f42;
-  text-transform: uppercase;
 }
 
 .link-logo:hover {
@@ -202,11 +195,5 @@ body {
 }
 
 .logo-studio-footer {
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: left;
   color: #f4f4fd;
 }
