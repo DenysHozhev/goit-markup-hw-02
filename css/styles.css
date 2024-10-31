@@ -3,34 +3,6 @@ body {
   color: #434455;
   background-color: #ffffff;
 
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-}
-
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-
-.raleway-uniquifier {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
 
 .link-logo {
   font-family: "Raleway", sans-serif;
@@ -45,14 +17,9 @@ body {
 }
 
 .logo-studio {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: left;
+
   color: #2e2f42;
-  text-transform: uppercase;
+
 }
 
 .link-logo:hover {
@@ -66,6 +33,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: #2e2f42;
+  text-decoration: none;
 }
 
 .link-nav:hover {
@@ -75,6 +43,8 @@ body {
 .link-nav:focus {
   color: #404bbf;
 }
+
+.list{list-style: none;}
 
 .title-address {
   font-style: normal;
@@ -88,6 +58,7 @@ body {
   text-align: left;
   color: #434455;
   font-style: normal;
+  text-decoration: none;
 }
 
 .link-address:hover {
@@ -224,11 +195,6 @@ body {
 }
 
 .logo-studio-footer {
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: left;
+ 
   color: #f4f4fd;
 }
